@@ -41,21 +41,21 @@ Um chatbot inteligente que oferece suporte emocional através de análise de sen
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-Front-end
-HTML5 Semântico
-CSS3 Moderno (variáveis ​​CSS, Flexbox)
-JavaScript Vanilla (ES6+)
-Persistência
-Armazenamento local
-Dependências
-Ícones de fontes incríveis
+- **Front-end**
+- **HTML5 Semântico**
+- **CSS3 Moderno (variáveis ​​CSS, Flexbox)**
+- **JavaScript**
+- **Armazenamento local**
+- **Ícones de fontes**
 
 ---
 
 📄 Licença
 MIT License - Veja LICENSE para detalhes.
 
-Desenvolvido por [Ana Karla] 👨💻 Visite Meu Portfólio
+---
+
+Desenvolvido por [Ana Karla](https://github.com/Devaks99) 👩💻 [Visite Meu Portfólio](https://devaks99.github.io/portifolio/)
 
 ---
 
