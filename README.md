@@ -40,7 +40,31 @@ Um chatbot inteligente que oferece suporte emocional através de análise de sen
 
 ---
 
+## 🛠️ Tecnologias Utilizadas
+Front-end
+HTML5 Semântico
+CSS3 Moderno (variáveis ​​CSS, Flexbox)
+JavaScript Vanilla (ES6+)
+Persistência
+Armazenamento local
+Dependências
+Ícones de fontes incríveis
+
+---
+
+📄 Licença
+MIT License - Veja LICENSE para detalhes.
+
+Desenvolvido por [Ana Karla] 👨💻 Visite Meu Portfólio
+
+---
+
 ## 🚀 Como Usar
 1. Clone o repositório:
 ```bash
-git clone https://github.com/Devaks99/CloudMind.git
+[git clone https://github.com/Devaks99/CloudMind.git]
+
+2. Abra index.html no navegador
+3. Selecione um sentimento e comece a conversar!
+
+
