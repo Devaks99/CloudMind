@@ -43,4 +43,4 @@ Um chatbot inteligente que oferece suporte emocional através de análise de sen
 ## 🚀 Como Usar
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/cloudmind.git
+git clone https://github.com/Devaks99/CloudMind.git
