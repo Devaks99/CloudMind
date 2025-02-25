@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icon-bot.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CloudMind</title>
+</head>
+<body>
+  <div class="app-container">
+    <header class="mobile-header">
+        <div class="header-content">
+          <div class="logo-container">
+            <img src="img/icon-bot.png" class="logo-icon" alt="Bot Icon">
+            <span class="app-name">CloudMind</span>
+          </div>
+          <button class="menu-toggle">☰</button>
+        </div>
+      </header>
+    
+      <!-- botão modo dark -->
+      <button class="theme-toggle">🌓 Tema</button>
+
+      <!-- botão para novo chat -->
+    <aside class="sidebar">
+      <button class="new-chat-btn">+ Novo Chat</button>
+      <ul class="chat-list" id="session-list"></ul>
+      <button class="mobile-theme-toggle">🌓 Alterar Tema</button>
+      <div class="sidebar-footer">
+        <p class="copyright">&copy; 2025 CloudMind. Todos os direitos reservados.</p>
+      </div>
+    </aside>
+    
+    <main class="main-content">
+      <div class="chat-history" id="chat-history"></div>
+      <button class="scroll-bottom">↓</button>
+      <form class="message-form" id="chat-form">
+        <textarea class="message-input" id="user-message" 
+          placeholder="Como você está se sentindo hoje? Ex: 'Preciso de um conselho para...'"></textarea>
+        <select class="sentiment-select" id="sentiment">
+          <option value="">Sentimento</option>
+          <option value="feliz">😊 Feliz</option>
+          <option value="triste">😢 Triste</option>
+          <option value="ansioso">😰 Ansioso</option>
+          <option value="raiva">😡 Raiva</option>
+        </select>
+        <button type="submit" class="send-btn">Enviar</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
