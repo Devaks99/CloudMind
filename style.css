@@ -436,20 +436,23 @@ body {
     }
 
     .mobile-theme-toggle {
-        display: none;
-        padding: 1rem;
+        display: block;
+        position: fixed; /* Mantém o botão fixo na tela */
+        bottom: 180px; /* Ajuste esta valor conforme necessário para ficar acima do copyright */
+        left: 50%; /* Centraliza horizontalmente */
+        transform: translateX(-50%); /* Ajusta o posicionamento para centro exato */
+        margin: 0;
+        padding: 0.5rem 1.5rem;
         background: var(--primary);
         color: white;
         border: none;
         border-radius: var(--radius);
         cursor: pointer;
-        margin: 1rem;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: 1001;
-      }
+        transition: background 0.2s;
+        z-index: 1000; /* Garante que fique acima de outros elementos */
+        font-size: 0.9rem; /* Opcional para melhor ajuste em mobile */
+        white-space: nowrap; /* Evita quebra de texto */
+    }
 
     .sidebar.mobile-active .mobile-theme-toggle {
         display: block;
